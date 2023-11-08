@@ -1,32 +1,80 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     background-color: rgb(169, 238, 255);
 }
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     padding-top: 0px;
 }
-#hs-button{
+
+#hsBtn{
     color: white;
     background-color: rgb(64, 64, 64);
-    padding: 1%;
-    border-radius: 15%;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 6px;
 }
+#hsBtn:hover {
+    background-color: rgb(54, 54, 54);
+  }
+
 main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 h1{
     font-size: 200%;
 }
+
 #start {
     text-align: center;
+    display: block;
 }
-#start-button {
-    background-color: rgb(0, 255, 64);
-    padding: 10px;
-    border-radius: 20%;
+
+#startBtn {
+      background-color: #2ea44f;
+      border: 1px solid rgba(27, 31, 35, .15);
+      border-radius: 6px;
+      box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      padding: 6px 16px;
 }
+
+#startBtn:hover {
+  background-color: #2c974b;
+}
+
+#highScore,
+#quiz,
+#final {
+    display: none;
+}
+
+#noDots{
+    list-style-type: none;
+}
+
+.ansBtn {
+    height: 40px;
+    width: 200px;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 5px ;
+}
+.ansBtn:hover {
+    background-color: #2c974b;
+  }
