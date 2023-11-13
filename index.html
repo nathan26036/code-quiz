@@ -11,34 +11,34 @@
     <!-- Timer and High Score button section -->
     <header>
       <button id="hsBtn">High Scores</button>
-      <p id="time">Time:60s</p>
+      <p id="time">Timer: 60</p>
     </header>
 
     <main>
       <!-- Starting section -->
         <section id="start">
-            <h1>Welcome to the Javascript<br> Coding Challenge!</h1>
-            <p>Answer the questions with the best of your abilities. <br>Any questions wrong will subtract time.</p>
+            <h1>Welcome to the Super Awesome<br> Coding Challenge!</h1>
+            <p>Answer the questions with the best of your abilities. Any questions wrong will subtract time. Less time = less points so be careful!</p>
             <button id="startBtn">Start Code Quiz</button>
         </section>
 
         <!-- Question section -->
         <section id = "quiz">
-          <p id="question">Questions Placeholder</p>
+          <h2 id="question">Questions Placeholder</h2>
             <ul id="noDots">
-              <li><button class="ansBtn" id="a">A</button></li>
-              <li><button class="ansBtn" id="b">B</button></li>
-              <li><button class="ansBtn" id="c">C</button></li>
-              <li><button class="ansBtn" id="d">D</button></li>
+              <li><button value="0" class="ansBtn" id="a">A</button></li>
+              <li><button value="1" class="ansBtn" id="b">B</button></li>
+              <li><button value="2" class="ansBtn" id="c">C</button></li>
+              <li><button value="3" class="ansBtn" id="d">D</button></li>
             </ul>
           <div id="result"></div>
         </section>
 
         <!-- Final Score section -->
         <section id="final">
-          <h2>All done!</h2>
-          <p>Your final score is: <span id="score">0</span></p>
-          <p>Enter initials: <span><input placeholder="initials" id="initials" /></span>
+          <h2>You have completed the quiz!</h2>
+          <p id="score"><!-- Final score goes here --></p>
+          <p>Enter initials: <input placeholder="initials" id="initials" />
               <button id="submit-score">Submit</button>
           </p>
         </section>
@@ -47,7 +47,7 @@
         <section id="highScore">
           <h2>High Scores</h2>
           <ol id="score-list">
-              <!-- <li></li> -->
+              <!-- <li> Intitials - Score </li> -->
           </ol>
           <button id="backbtn">Go back</button>
           <button id="clearscores">Clear scores</button>
