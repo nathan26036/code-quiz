@@ -19,8 +19,10 @@ The goal of this project is to make a timed multiple-choice quiz. The quiz must 
 * Created a function that will pull the items from local storage using .getitem
 * Added an event listener to each button and linked them to the functions so the functions would work on a click of the mouse
 
-![The complete version of the code]()
-![The Deployed image]()
+![The complete version of the code](https://github.com/nathan26036/code-quiz/blob/main/assets/Images/java.PNG)
+![The Deployed image of the starting page](https://github.com/nathan26036/code-quiz/blob/main/assets/Images/starting-screen.PNG)
+![The Deployed image of the questions](https://github.com/nathan26036/code-quiz/blob/main/assets/Images/questions.PNG)
+![The Deployed image of the scoreboard](https://github.com/nathan26036/code-quiz/blob/main/assets/Images/score-board.PNG)
 
 ## Installation 
 The final code deployed can be found at 
