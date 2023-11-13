@@ -25,7 +25,7 @@ The goal of this project is to make a timed multiple-choice quiz. The quiz must 
 ![The Deployed image of the scoreboard](https://github.com/nathan26036/code-quiz/blob/main/assets/Images/score-board.PNG)
 
 ## Installation 
-The final code deployed can be found at 
+The final code deployed can be found at https://nathan26036.github.io/code-quiz/
 
 ## Resources
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
